@@ -39,7 +39,11 @@ Merge the `main` branch from `origin` back into your `feature` branch often to m
 git checkout feature/something-meaningful; git pull origin main;
 ```
 
-### 4. Push to `origin`
+### 4. Test locally
+
+Be sure to test your feature thoroughly within you local dev environment.
+
+### 5. Push to `origin`
 
 When ready, push your branch to `origin`. Example:
 
@@ -47,8 +51,12 @@ When ready, push your branch to `origin`. Example:
 git push origin feature/something-meaningful
 ```
 
-### 5. Submit a PR
+### 6. Submit a PR
 
 Create a Pull Request on GitHub repository, into the `develop` branch. The lead developer will be notified by GitHub automatically.
 
 After the PR is reviewed, it'll either be approved and merged into `develop` by the lead developer, or it'll be commented on for additional changes/info if it's not yet approved.
+
+### 7. Test on Staging
+
+After the PR is approved and the feature is deployed to staging, it's a good idea to do your own final testing of the feature on the staging site, just for one last check. If something looks odd, please make sure you notifiy the lead developer. If it looks fine to you, no further action is required by you for that feature, unless notified otherwise.
