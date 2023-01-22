@@ -53,7 +53,7 @@ git push origin feature/something-meaningful
 
 ### 6. Submit a PR
 
-Create a Pull Request on GitHub repository, into the `develop` branch. The lead developer will be notified by GitHub automatically.
+Create a Pull Request on GitHub repository, requesting to be merged into the `develop` branch (NOT the `main` branch). The lead developer will be notified by GitHub automatically.
 
 After the PR is reviewed, it'll either be approved and merged into `develop` by the lead developer, or it'll be commented on for additional changes/info if it's not yet approved.
 
